@@ -54,3 +54,7 @@ export const deleteTodo = async (req: Request, res: Response) => {
     res.status(500).json({ success: false, err });
   }
 };
+
+function test(){
+console.log(1+2)
+}
