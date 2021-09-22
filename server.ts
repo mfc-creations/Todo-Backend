@@ -20,6 +20,8 @@ app.use("/api/v1/todo", Todo);
 
 const PORT = process.env.PORT || 8000;
 
+console.log("Hello world")
+
 app.listen(PORT, () => {
   console.log(`Server running on ${process.env.NODE_ENV} mode on port ${PORT}`);
 });
